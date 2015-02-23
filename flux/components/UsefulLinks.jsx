@@ -38,10 +38,10 @@ define(function (require, exports, module) {
                     <a href={item.url} target="_blank">{item.title}</a>
                 </li>);
             return (
-                <div class="ui grid">
+                <section>
                     <h4>{this.props.title}</h4>
                     <ul style={style}>{items}</ul>
-                </div>
+                </section>
             );
         }
     });
