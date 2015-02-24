@@ -5,10 +5,10 @@ var require = {
     paths: {
         text: 'bower_components/requirejs_text/text',
         jquery: 'bower_components/jquery/dist/jquery',
-        lodash: 'bower_components/lodash/dist/lodash',
+        lodash: 'bower_components/lodash/lodash',
         semantic: 'node_modules/react-semantify/amd',
         react: 'bower_components/react/react-with-addons',
-        'react-router': 'bower_components/react_router/dist/react-router',
+        'react-router': 'bower_components/react_router/build/global/ReactRouter',
         'react-router-shim': 'react-router-shim',
         JSXTransformer: 'bower_components/jsx_requirejs_plugin/js/JSXTransformer',
         jsx: 'bower_components/jsx_requirejs_plugin/js/jsx',
@@ -27,6 +27,7 @@ var require = {
     },
     jsx: {
         fileExtension: '.jsx',
-        harmony: true
+        harmony: true,
+        stripTypes: true
     }
 };
